@@ -51,9 +51,9 @@
 		2C89866629D957490084F508 /* AppleMusicSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				2C89866729D957490084F508 /* AppleMusicSwiftUIApp.swift */,
-				2C89866929D957490084F508 /* ContentView.swift */,
-				2C89866B29D9574B0084F508 /* Assets.xcassets */,
+				2C89867529D958AD0084F508 /* App */,
+				2C89867629D958B40084F508 /* Views */,
+				2C89867729D958C00084F508 /* Resources */,
 				2C89866D29D9574B0084F508 /* Preview Content */,
 			);
 			path = AppleMusicSwiftUI;
@@ -65,6 +65,30 @@
 				2C89866E29D9574B0084F508 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C89867529D958AD0084F508 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2C89866729D957490084F508 /* AppleMusicSwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2C89867629D958B40084F508 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C89866929D957490084F508 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C89867729D958C00084F508 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C89866B29D9574B0084F508 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
