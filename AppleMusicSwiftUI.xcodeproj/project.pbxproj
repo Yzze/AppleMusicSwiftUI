@@ -16,6 +16,7 @@
 		2C89867D29D95B640084F508 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89867C29D95B640084F508 /* ListView.swift */; };
 		2C89867F29D95BC30084F508 /* TapBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89867E29D95BC30084F508 /* TapBarView.swift */; };
 		2C89868129D95C7B0084F508 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89868029D95C7B0084F508 /* PlayerView.swift */; };
+		2C89868429D95CFB0084F508 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89868329D95CFB0084F508 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		2C89867C29D95B640084F508 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		2C89867E29D95BC30084F508 /* TapBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarView.swift; sourceTree = "<group>"; };
 		2C89868029D95C7B0084F508 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		2C89868329D95CFB0084F508 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				2C89867529D958AD0084F508 /* App */,
+				2C89868229D95CED0084F508 /* Model */,
 				2C89867629D958B40084F508 /* Views */,
 				2C89867729D958C00084F508 /* Resources */,
 				2C89866D29D9574B0084F508 /* Preview Content */,
@@ -104,6 +107,14 @@
 				2C89866B29D9574B0084F508 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		2C89868229D95CED0084F508 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C89868329D95CFB0084F508 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 				2C89867D29D95B640084F508 /* ListView.swift in Sources */,
 				2C89867B29D95B120084F508 /* Libery.swift in Sources */,
 				2C89866829D957490084F508 /* AppleMusicSwiftUIApp.swift in Sources */,
+				2C89868429D95CFB0084F508 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
