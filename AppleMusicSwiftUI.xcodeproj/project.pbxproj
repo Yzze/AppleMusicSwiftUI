@@ -13,6 +13,7 @@
 		2C89866F29D9574B0084F508 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C89866E29D9574B0084F508 /* Preview Assets.xcassets */; };
 		2C89867929D95AB10084F508 /* LiberyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89867829D95AB10084F508 /* LiberyView.swift */; };
 		2C89867B29D95B120084F508 /* Libery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89867A29D95B120084F508 /* Libery.swift */; };
+		2C89867D29D95B640084F508 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89867C29D95B640084F508 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		2C89866E29D9574B0084F508 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2C89867829D95AB10084F508 /* LiberyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiberyView.swift; sourceTree = "<group>"; };
 		2C89867A29D95B120084F508 /* Libery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Libery.swift; sourceTree = "<group>"; };
+		2C89867C29D95B640084F508 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				2C89866929D957490084F508 /* ContentView.swift */,
 				2C89867829D95AB10084F508 /* LiberyView.swift */,
 				2C89867A29D95B120084F508 /* Libery.swift */,
+				2C89867C29D95B640084F508 /* ListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			files = (
 				2C89867929D95AB10084F508 /* LiberyView.swift in Sources */,
 				2C89866A29D957490084F508 /* ContentView.swift in Sources */,
+				2C89867D29D95B640084F508 /* ListView.swift in Sources */,
 				2C89867B29D95B120084F508 /* Libery.swift in Sources */,
 				2C89866829D957490084F508 /* AppleMusicSwiftUIApp.swift in Sources */,
 			);
