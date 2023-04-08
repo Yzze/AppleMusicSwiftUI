@@ -27,7 +27,6 @@ struct TabBarView: View {
                     Image(systemName: "magnifyingglass")
                     Text("Поиск")
                 }
-            
         }
         .accentColor(.red)
     }
