@@ -14,11 +14,16 @@ struct PlayerView: View {
                     .shadow(radius: 5)
                 Text("Linkin Park - Numb")
                 Spacer()
-                Image(systemName: "play.fill")
-                    .frame(width: 35)
-                Image(systemName: "forward.fill")
-                    .frame(width: 35)
-                
+                Button {} label: {
+                    Image(systemName: "play.fill")
+                        .frame(width: 35)
+                        .foregroundColor(.black)
+                }
+                Button {} label: {
+                    Image(systemName: "forward.fill")
+                        .frame(width: 35)
+                        .foregroundColor(.black)
+                }
             }
             .position(x: 180, y: 660)
             .padding()
