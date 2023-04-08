@@ -9,27 +9,27 @@ import Foundation
 
 class ModelRadioView {
     var models = [
-        Model(top: "Избранная радиостанция",
+        ModelForStation(top: "Избранная радиостанция",
               middle: "Легкий поп",
               bottom: "Станция Apple Music",
               image: "pop1"),
-        Model(top: "Избранная радиостанция",
+        ModelForStation(top: "Избранная радиостанция",
               middle: "Хиты",
               bottom: "Станция Apple Music",
               image: "hits"),
-        Model(top: "Избранная радиостанция",
+        ModelForStation(top: "Избранная радиостанция",
               middle: "Хип-хоп",
               bottom: "Станция Apple Music",
               image: "hiphop"),
-        Model(top: "Избранная радиостанция",
+        ModelForStation(top: "Избранная радиостанция",
               middle: "Классика рока",
               bottom: "Станция Apple Music",
               image: "rock")
     ]
 }
 
-struct Model: Identifiable {
-    var id = UUID()
+struct ModelForStation: Identifiable {
+    let id = UUID()
     let top: String
     let middle: String
     let bottom: String
