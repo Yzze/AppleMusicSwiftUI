@@ -17,6 +17,8 @@
 		2C89867F29D95BC30084F508 /* TapBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89867E29D95BC30084F508 /* TapBarView.swift */; };
 		2C89868129D95C7B0084F508 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89868029D95C7B0084F508 /* PlayerView.swift */; };
 		2C89868429D95CFB0084F508 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89868329D95CFB0084F508 /* Model.swift */; };
+		2C94C53B29E1609000AA643F /* RadioStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C53A29E1609000AA643F /* RadioStationView.swift */; };
+		2C94C53F29E160DE00AA643F /* ModelForRadioStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C53E29E160DE00AA643F /* ModelForRadioStationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		2C89867E29D95BC30084F508 /* TapBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarView.swift; sourceTree = "<group>"; };
 		2C89868029D95C7B0084F508 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		2C89868329D95CFB0084F508 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2C94C53A29E1609000AA643F /* RadioStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStationView.swift; sourceTree = "<group>"; };
+		2C94C53E29E160DE00AA643F /* ModelForRadioStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForRadioStationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 		2C89867629D958B40084F508 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2C94C53929E1604D00AA643F /* Radio */,
 				2C89866929D957490084F508 /* ContentView.swift */,
 				2C89867829D95AB10084F508 /* LiberyView.swift */,
 				2C89867A29D95B120084F508 /* Libery.swift */,
@@ -115,6 +120,31 @@
 				2C89868329D95CFB0084F508 /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2C94C53929E1604D00AA643F /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C53C29E160AC00AA643F /* Model */,
+				2C94C54029E1629700AA643F /* View */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		2C94C53C29E160AC00AA643F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C53E29E160DE00AA643F /* ModelForRadioStationView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C94C54029E1629700AA643F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C53A29E1609000AA643F /* RadioStationView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +220,9 @@
 				2C89867F29D95BC30084F508 /* TapBarView.swift in Sources */,
 				2C89867929D95AB10084F508 /* LiberyView.swift in Sources */,
 				2C89868129D95C7B0084F508 /* PlayerView.swift in Sources */,
+				2C94C53B29E1609000AA643F /* RadioStationView.swift in Sources */,
 				2C89866A29D957490084F508 /* ContentView.swift in Sources */,
+				2C94C53F29E160DE00AA643F /* ModelForRadioStationView.swift in Sources */,
 				2C89867D29D95B640084F508 /* ListView.swift in Sources */,
 				2C89867B29D95B120084F508 /* Libery.swift in Sources */,
 				2C89866829D957490084F508 /* AppleMusicSwiftUIApp.swift in Sources */,
