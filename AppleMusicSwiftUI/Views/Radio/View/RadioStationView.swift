@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RadioStationView: View {
-    private var models = ModelRadioView()
+    @ObservedObject private var models = ModelRadioView()
         
     var rows = [GridItem()]
         

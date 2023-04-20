@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct GenreStationsView: View {
-    private var model = ModelGenreStation()
+    @ObservedObject private var model = ModelGenreStation()
     
     let columns = [GridItem()]
     
@@ -21,6 +21,8 @@ struct GenreStationsView: View {
                     ForEach(model.models, id: \.id) { model in
                         HStack {
                             Image(model.image)
+                                .resizable()
+                                .frame(width: 130, height: 130)
                                 .cornerRadius(10)
                             VStack(alignment: .leading) {
                                 Text(model.title)

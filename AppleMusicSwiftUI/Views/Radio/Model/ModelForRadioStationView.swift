@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ModelRadioView {
+class ModelRadioView: ObservableObject {
     var models = [
         ModelForStation(top: "Избранная радиостанция",
               middle: "Легкий поп",
