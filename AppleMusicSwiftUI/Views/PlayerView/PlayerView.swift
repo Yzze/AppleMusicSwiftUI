@@ -8,25 +8,45 @@
 import SwiftUI
 
 struct PlayerView: View {
+    
+    @State private var showingPopover = false
+    
     var body: some View {
+        HStack {
             HStack {
-                Image("albumImg")
-                    .shadow(radius: 5)
-                Text("Linkin Park - Numb")
+                Button {
+                    showingPopover = true
+                } label: {
+                    Image("albumImg")
+                        .shadow(radius: 5)
+                }
+                
+                Button {
+                    showingPopover = true
+                } label: {
+                    Text("Linkin Park - Numb")
+                        .foregroundColor(.black)
+                }
                 Spacer()
-                Button {} label: {
-                    Image(systemName: "play.fill")
-                        .frame(width: 35)
-                        .foregroundColor(.black)
-                }
-                Button {} label: {
-                    Image(systemName: "forward.fill")
-                        .frame(width: 35)
-                        .foregroundColor(.black)
-                }
             }
-            .position(x: 180, y: 660)
-            .padding()
+            .popover(isPresented: $showingPopover) {
+                DetailPlayerView()
+            }
+            
+            Button {} label: {
+                Image(systemName: "play.fill")
+                    .padding(.trailing, 10)
+                    .foregroundColor(.black)
+            }
+            
+            Button {} label: {
+                Image(systemName: "forward.fill")
+                    .padding(.trailing, 10)
+                    .foregroundColor(.black)
+            }
+        }
+        .position(x: 180, y: 660)
+        .padding()
     }
 }
 
