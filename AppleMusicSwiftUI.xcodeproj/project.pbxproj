@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C4EB02029F19A91008D0D5F /* SearchSecondViewGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EB01F29F19A91008D0D5F /* SearchSecondViewGenre.swift */; };
 		2C89866829D957490084F508 /* AppleMusicSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89866729D957490084F508 /* AppleMusicSwiftUIApp.swift */; };
 		2C89866A29D957490084F508 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89866929D957490084F508 /* ContentView.swift */; };
 		2C89866C29D9574B0084F508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C89866B29D9574B0084F508 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C4EB01F29F19A91008D0D5F /* SearchSecondViewGenre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSecondViewGenre.swift; sourceTree = "<group>"; };
 		2C89866429D957490084F508 /* AppleMusicSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusicSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C89866729D957490084F508 /* AppleMusicSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicSwiftUIApp.swift; sourceTree = "<group>"; };
 		2C89866929D957490084F508 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C4EB01E29F19A43008D0D5F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				2C4EB01F29F19A91008D0D5F /* SearchSecondViewGenre.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		2C89865B29D957490084F508 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				2C89866929D957490084F508 /* ContentView.swift */,
+				2C4EB01E29F19A43008D0D5F /* Search */,
 				2C94C53929E1604D00AA643F /* Radio */,
 				2CEC24A129E188AB00EA560E /* LiberyView */,
 				2CEC24A029E1889700EA560E /* PlayerView */,
@@ -268,6 +279,7 @@
 				2C94C54629E165E900AA643F /* RadioContentView.swift in Sources */,
 				2C94C53F29E160DE00AA643F /* ModelForRadioStationView.swift in Sources */,
 				2C89867D29D95B640084F508 /* ListView.swift in Sources */,
+				2C4EB02029F19A91008D0D5F /* SearchSecondViewGenre.swift in Sources */,
 				2C89867B29D95B120084F508 /* Libery.swift in Sources */,
 				2C89866829D957490084F508 /* AppleMusicSwiftUIApp.swift in Sources */,
 				2C89868429D95CFB0084F508 /* Model.swift in Sources */,

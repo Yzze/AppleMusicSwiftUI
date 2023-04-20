@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ModelGenreStation {
+class ModelGenreStation: ObservableObject {
     var models = [
         ModelForGenre(image: "chil",
                       title: "Чилаут",
