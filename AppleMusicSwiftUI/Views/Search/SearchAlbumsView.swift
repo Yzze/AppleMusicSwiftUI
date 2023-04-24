@@ -19,44 +19,37 @@ struct SearchAlbumsView: View {
     ]
     
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Поиск")
-                .fontWeight(.heavy)
-                .font(.system(size: 32))
-            HStack {
-                Image(systemName: "magnifyingglass")
-                TextField (
-                    "Ваша Медиатека",
-                    text: $name
-                )
-                .disableAutocorrection(true)
-            }
-            .padding(7)
-            .overlay {
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(lineWidth: 0.5)
-            }
-            .padding(.bottom, 10)
-            
-            ScrollView(.vertical, showsIndicators: false) {
-                LazyVGrid(columns: columns) {
-                    ForEach(models.models, id: \.id) { model in
-                        VStack(alignment: .leading) {
-                            Button(action: {
-                                detailScreen.toggle()
-                            }, label: {
-                                Image(model.image)
-                                    .resizable()
-                                    .frame(width: 175, height: 130)
-                                    .cornerRadius(10)
-                            })
-                        }
-                    }
+        NavigationView {
+            VStack(alignment: .leading) {
+                Text("Поиск")
+                    .fontWeight(.heavy)
+                    .font(.system(size: 32))
+                HStack {
+                    Image(systemName: "magnifyingglass")
+                    TextField (
+                        "Ваша Медиатека",
+                        text: $name
+                    )
+                    .disableAutocorrection(true)
                 }
+                .padding(7)
+                .overlay {
+                    RoundedRectangle(cornerRadius: 10)
+                        .stroke(lineWidth: 0.5)
+                }
+                .padding(.bottom, 10)
+                NavigationLink(destination: SearchSecondViewScreen(),
+                               label: {
+                    SearchViewRepresentable()
+                })
+                .navigationBarTitle("")
+                .navigationBarBackButtonHidden(true)
             }
+            .padding()
+            .padding(.bottom, 50)
         }
-        .padding()
-        .padding(.bottom, 50)
+        .accentColor(.red)
+
     }
 }
 

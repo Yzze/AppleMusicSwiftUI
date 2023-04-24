@@ -12,7 +12,6 @@ struct SearchView: View {
     @State var detailScreen = false
     
     var body: some View {
-        NavigationView {
             if detailScreen {
                 VStack (alignment: .leading) {
                     Button {
@@ -28,10 +27,8 @@ struct SearchView: View {
             } else {
                 SearchAlbumsView(detailScreen: $detailScreen)
             }
-        }
     }
 }
-
 
 struct SearchView_Previews: PreviewProvider {
     static var previews: some View {
