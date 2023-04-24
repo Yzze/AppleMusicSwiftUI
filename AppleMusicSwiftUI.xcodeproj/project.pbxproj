@@ -10,6 +10,7 @@
 		2C4A09B729F6E48500922B0B /* ModelForIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A09B629F6E48500922B0B /* ModelForIntegrationView.swift */; };
 		2C4A09BA29F6E53100922B0B /* SearchHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A09B929F6E53100922B0B /* SearchHeader.swift */; };
 		2C4A09BD29F6E5C200922B0B /* SearchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A09BC29F6E5C200922B0B /* SearchViewCell.swift */; };
+		2C4A09BF29F6E61F00922B0B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A09BE29F6E61F00922B0B /* SearchViewController.swift */; };
 		2C4EB02029F19A91008D0D5F /* SearchSecondViewGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EB01F29F19A91008D0D5F /* SearchSecondViewGenre.swift */; };
 		2C4EB02229F19B9A008D0D5F /* SearchSecondViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EB02129F19B9A008D0D5F /* SearchSecondViewScreen.swift */; };
 		2C4EB02429F19C60008D0D5F /* SearchAlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EB02329F19C60008D0D5F /* SearchAlbumsView.swift */; };
@@ -36,6 +37,7 @@
 		2C4A09B629F6E48500922B0B /* ModelForIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForIntegrationView.swift; sourceTree = "<group>"; };
 		2C4A09B929F6E53100922B0B /* SearchHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHeader.swift; sourceTree = "<group>"; };
 		2C4A09BC29F6E5C200922B0B /* SearchViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewCell.swift; sourceTree = "<group>"; };
+		2C4A09BE29F6E61F00922B0B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		2C4EB01F29F19A91008D0D5F /* SearchSecondViewGenre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSecondViewGenre.swift; sourceTree = "<group>"; };
 		2C4EB02129F19B9A008D0D5F /* SearchSecondViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSecondViewScreen.swift; sourceTree = "<group>"; };
 		2C4EB02329F19C60008D0D5F /* SearchAlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAlbumsView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				2C4A09BC29F6E5C200922B0B /* SearchViewCell.swift */,
+				2C4A09BE29F6E61F00922B0B /* SearchViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				2C4EB02629F19CBA008D0D5F /* SearchView.swift in Sources */,
 				2C4EB02429F19C60008D0D5F /* SearchAlbumsView.swift in Sources */,
 				2C94C54229E1633A00AA643F /* GenreStationsView.swift in Sources */,
+				2C4A09BF29F6E61F00922B0B /* SearchViewController.swift in Sources */,
 				2C94C54629E165E900AA643F /* RadioContentView.swift in Sources */,
 				2C4EB02229F19B9A008D0D5F /* SearchSecondViewScreen.swift in Sources */,
 				2C94C53F29E160DE00AA643F /* ModelForRadioStationView.swift in Sources */,
