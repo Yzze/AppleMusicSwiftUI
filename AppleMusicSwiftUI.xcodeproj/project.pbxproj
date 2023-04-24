@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C4A09B729F6E48500922B0B /* ModelForIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A09B629F6E48500922B0B /* ModelForIntegrationView.swift */; };
 		2C4EB02029F19A91008D0D5F /* SearchSecondViewGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EB01F29F19A91008D0D5F /* SearchSecondViewGenre.swift */; };
 		2C4EB02229F19B9A008D0D5F /* SearchSecondViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EB02129F19B9A008D0D5F /* SearchSecondViewScreen.swift */; };
 		2C4EB02429F19C60008D0D5F /* SearchAlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EB02329F19C60008D0D5F /* SearchAlbumsView.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C4A09B629F6E48500922B0B /* ModelForIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForIntegrationView.swift; sourceTree = "<group>"; };
 		2C4EB01F29F19A91008D0D5F /* SearchSecondViewGenre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSecondViewGenre.swift; sourceTree = "<group>"; };
 		2C4EB02129F19B9A008D0D5F /* SearchSecondViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSecondViewScreen.swift; sourceTree = "<group>"; };
 		2C4EB02329F19C60008D0D5F /* SearchAlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAlbumsView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C4A09B429F6E44600922B0B /* SearchViewUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2C4A09B529F6E45F00922B0B /* Model */,
+			);
+			path = SearchViewUIKit;
+			sourceTree = "<group>";
+		};
+		2C4A09B529F6E45F00922B0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C4A09B629F6E48500922B0B /* ModelForIntegrationView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2C4EB01E29F19A43008D0D5F /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +89,7 @@
 				2C4EB02129F19B9A008D0D5F /* SearchSecondViewScreen.swift */,
 				2C4EB02329F19C60008D0D5F /* SearchAlbumsView.swift */,
 				2C4EB02529F19CBA008D0D5F /* SearchView.swift */,
+				2C4A09B429F6E44600922B0B /* SearchViewUIKit */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -284,6 +303,7 @@
 				2C89867F29D95BC30084F508 /* TapBarView.swift in Sources */,
 				2C89867929D95AB10084F508 /* LiberyView.swift in Sources */,
 				2C89868129D95C7B0084F508 /* PlayerView.swift in Sources */,
+				2C4A09B729F6E48500922B0B /* ModelForIntegrationView.swift in Sources */,
 				2C94C53B29E1609000AA643F /* RadioStationView.swift in Sources */,
 				2C4EB02829F19F7C008D0D5F /* DetailPlayerView.swift in Sources */,
 				2C89866A29D957490084F508 /* ContentView.swift in Sources */,
